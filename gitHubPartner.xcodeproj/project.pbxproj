@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD4BF1E3286CC6990009CBC9 /* nameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4BF1E2286CC6990009CBC9 /* nameViewController.swift */; };
+		BD4BF1E5286CD2380009CBC9 /* practiceDesignApp.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD4BF1E4286CD2380009CBC9 /* practiceDesignApp.storyboard */; };
 		BD652813286B8C18002DC737 /* BarControlViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD652812286B8C18002DC737 /* BarControlViewController.swift */; };
 		BD652815286B95FF002DC737 /* questionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD652814286B95FF002DC737 /* questionViewController.swift */; };
 		BD652817286B966E002DC737 /* barViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD652816286B966E002DC737 /* barViewController.swift */; };
@@ -22,6 +24,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BD4BF1E2286CC6990009CBC9 /* nameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nameViewController.swift; sourceTree = "<group>"; };
+		BD4BF1E4286CD2380009CBC9 /* practiceDesignApp.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = practiceDesignApp.storyboard; path = ../../Documents/practiceDesignApp.storyboard; sourceTree = "<group>"; };
 		BD652812286B8C18002DC737 /* BarControlViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarControlViewController.swift; sourceTree = "<group>"; };
 		BD652814286B95FF002DC737 /* questionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = questionViewController.swift; sourceTree = "<group>"; };
 		BD652816286B966E002DC737 /* barViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = barViewController.swift; sourceTree = "<group>"; };
@@ -52,6 +56,7 @@
 		BDB0F303286B5114009AA2B0 = {
 			isa = PBXGroup;
 			children = (
+				BD4BF1E4286CD2380009CBC9 /* practiceDesignApp.storyboard */,
 				BDB0F30E286B5114009AA2B0 /* gitHubPartner */,
 				BDB0F30D286B5114009AA2B0 /* Products */,
 			);
@@ -72,6 +77,7 @@
 				BDB0F311286B5114009AA2B0 /* SceneDelegate.swift */,
 				BDB0F313286B5114009AA2B0 /* ViewController.swift */,
 				BDB0F315286B5114009AA2B0 /* Main.storyboard */,
+				BD4BF1E2286CC6990009CBC9 /* nameViewController.swift */,
 				BD652816286B966E002DC737 /* barViewController.swift */,
 				BD652814286B95FF002DC737 /* questionViewController.swift */,
 				BD652812286B8C18002DC737 /* BarControlViewController.swift */,
@@ -144,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BDB0F31F286B5115009AA2B0 /* LaunchScreen.storyboard in Resources */,
+				BD4BF1E5286CD2380009CBC9 /* practiceDesignApp.storyboard in Resources */,
 				BDB0F31C286B5115009AA2B0 /* Assets.xcassets in Resources */,
 				BDB0F317286B5114009AA2B0 /* Main.storyboard in Resources */,
 			);
@@ -163,6 +170,7 @@
 				BDB0F310286B5114009AA2B0 /* AppDelegate.swift in Sources */,
 				BDB0F329286B5F70009AA2B0 /* secondViewController.swift in Sources */,
 				BD652815286B95FF002DC737 /* questionViewController.swift in Sources */,
+				BD4BF1E3286CC6990009CBC9 /* nameViewController.swift in Sources */,
 				BDB0F312286B5114009AA2B0 /* SceneDelegate.swift in Sources */,
 				BD652817286B966E002DC737 /* barViewController.swift in Sources */,
 			);
@@ -311,6 +319,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3CCTF2ZUR9;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = gitHubPartner/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -323,7 +332,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = KWK.gitHubPartner;
+				PRODUCT_BUNDLE_IDENTIFIER = KWK.gitHubPartner123;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -338,6 +347,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3CCTF2ZUR9;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = gitHubPartner/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -350,7 +360,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = KWK.gitHubPartner;
+				PRODUCT_BUNDLE_IDENTIFIER = KWK.gitHubPartner123;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
