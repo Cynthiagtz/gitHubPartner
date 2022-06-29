@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		BD4BF1E3286CC6990009CBC9 /* nameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4BF1E2286CC6990009CBC9 /* nameViewController.swift */; };
-		BD4BF1E5286CD2380009CBC9 /* practiceDesignApp.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD4BF1E4286CD2380009CBC9 /* practiceDesignApp.storyboard */; };
 		BD652813286B8C18002DC737 /* BarControlViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD652812286B8C18002DC737 /* BarControlViewController.swift */; };
 		BD652815286B95FF002DC737 /* questionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD652814286B95FF002DC737 /* questionViewController.swift */; };
 		BD652817286B966E002DC737 /* barViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD652816286B966E002DC737 /* barViewController.swift */; };
@@ -25,7 +24,6 @@
 
 /* Begin PBXFileReference section */
 		BD4BF1E2286CC6990009CBC9 /* nameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nameViewController.swift; sourceTree = "<group>"; };
-		BD4BF1E4286CD2380009CBC9 /* practiceDesignApp.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = practiceDesignApp.storyboard; path = ../../Documents/practiceDesignApp.storyboard; sourceTree = "<group>"; };
 		BD652812286B8C18002DC737 /* BarControlViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarControlViewController.swift; sourceTree = "<group>"; };
 		BD652814286B95FF002DC737 /* questionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = questionViewController.swift; sourceTree = "<group>"; };
 		BD652816286B966E002DC737 /* barViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = barViewController.swift; sourceTree = "<group>"; };
@@ -56,7 +54,6 @@
 		BDB0F303286B5114009AA2B0 = {
 			isa = PBXGroup;
 			children = (
-				BD4BF1E4286CD2380009CBC9 /* practiceDesignApp.storyboard */,
 				BDB0F30E286B5114009AA2B0 /* gitHubPartner */,
 				BDB0F30D286B5114009AA2B0 /* Products */,
 			);
@@ -150,7 +147,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				BDB0F31F286B5115009AA2B0 /* LaunchScreen.storyboard in Resources */,
-				BD4BF1E5286CD2380009CBC9 /* practiceDesignApp.storyboard in Resources */,
 				BDB0F31C286B5115009AA2B0 /* Assets.xcassets in Resources */,
 				BDB0F317286B5114009AA2B0 /* Main.storyboard in Resources */,
 			);
