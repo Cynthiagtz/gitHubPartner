@@ -7,10 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BD4BF1E3286CC6990009CBC9 /* nameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4BF1E2286CC6990009CBC9 /* nameViewController.swift */; };
-		BD652813286B8C18002DC737 /* BarControlViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD652812286B8C18002DC737 /* BarControlViewController.swift */; };
-		BD652815286B95FF002DC737 /* questionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD652814286B95FF002DC737 /* questionViewController.swift */; };
-		BD652817286B966E002DC737 /* barViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD652816286B966E002DC737 /* barViewController.swift */; };
 		BDB0F310286B5114009AA2B0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB0F30F286B5114009AA2B0 /* AppDelegate.swift */; };
 		BDB0F312286B5114009AA2B0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB0F311286B5114009AA2B0 /* SceneDelegate.swift */; };
 		BDB0F314286B5114009AA2B0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB0F313286B5114009AA2B0 /* ViewController.swift */; };
@@ -18,15 +14,14 @@
 		BDB0F31A286B5114009AA2B0 /* gitHubPartner.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BDB0F318286B5114009AA2B0 /* gitHubPartner.xcdatamodeld */; };
 		BDB0F31C286B5115009AA2B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDB0F31B286B5115009AA2B0 /* Assets.xcassets */; };
 		BDB0F31F286B5115009AA2B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDB0F31D286B5115009AA2B0 /* LaunchScreen.storyboard */; };
-		BDB0F327286B5EF6009AA2B0 /* NewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB0F326286B5EF6009AA2B0 /* NewViewController.swift */; };
-		BDB0F329286B5F70009AA2B0 /* secondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB0F328286B5F70009AA2B0 /* secondViewController.swift */; };
+		BDF78DD1286DF8CA006DCEC1 /* QOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF78DD0286DF8CA006DCEC1 /* QOneViewController.swift */; };
+		BDF78DD3286DF8DB006DCEC1 /* QTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF78DD2286DF8DB006DCEC1 /* QTwoViewController.swift */; };
+		BDF78DD5286DF8E6006DCEC1 /* QThreeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF78DD4286DF8E6006DCEC1 /* QThreeViewController.swift */; };
+		BDF78DD7286DF8FA006DCEC1 /* QFourViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF78DD6286DF8FA006DCEC1 /* QFourViewController.swift */; };
+		BDF78DD9286DFA04006DCEC1 /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF78DD8286DFA04006DCEC1 /* ResultsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		BD4BF1E2286CC6990009CBC9 /* nameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nameViewController.swift; sourceTree = "<group>"; };
-		BD652812286B8C18002DC737 /* BarControlViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarControlViewController.swift; sourceTree = "<group>"; };
-		BD652814286B95FF002DC737 /* questionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = questionViewController.swift; sourceTree = "<group>"; };
-		BD652816286B966E002DC737 /* barViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = barViewController.swift; sourceTree = "<group>"; };
 		BDB0F30C286B5114009AA2B0 /* gitHubPartner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gitHubPartner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDB0F30F286B5114009AA2B0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BDB0F311286B5114009AA2B0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -36,8 +31,11 @@
 		BDB0F31B286B5115009AA2B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BDB0F31E286B5115009AA2B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BDB0F320286B5115009AA2B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BDB0F326286B5EF6009AA2B0 /* NewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewViewController.swift; sourceTree = "<group>"; };
-		BDB0F328286B5F70009AA2B0 /* secondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondViewController.swift; sourceTree = "<group>"; };
+		BDF78DD0286DF8CA006DCEC1 /* QOneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QOneViewController.swift; sourceTree = "<group>"; };
+		BDF78DD2286DF8DB006DCEC1 /* QTwoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QTwoViewController.swift; sourceTree = "<group>"; };
+		BDF78DD4286DF8E6006DCEC1 /* QThreeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QThreeViewController.swift; sourceTree = "<group>"; };
+		BDF78DD6286DF8FA006DCEC1 /* QFourViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QFourViewController.swift; sourceTree = "<group>"; };
+		BDF78DD8286DFA04006DCEC1 /* ResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,12 +72,11 @@
 				BDB0F311286B5114009AA2B0 /* SceneDelegate.swift */,
 				BDB0F313286B5114009AA2B0 /* ViewController.swift */,
 				BDB0F315286B5114009AA2B0 /* Main.storyboard */,
-				BD4BF1E2286CC6990009CBC9 /* nameViewController.swift */,
-				BD652816286B966E002DC737 /* barViewController.swift */,
-				BD652814286B95FF002DC737 /* questionViewController.swift */,
-				BD652812286B8C18002DC737 /* BarControlViewController.swift */,
-				BDB0F328286B5F70009AA2B0 /* secondViewController.swift */,
-				BDB0F326286B5EF6009AA2B0 /* NewViewController.swift */,
+				BDF78DD8286DFA04006DCEC1 /* ResultsViewController.swift */,
+				BDF78DD0286DF8CA006DCEC1 /* QOneViewController.swift */,
+				BDF78DD2286DF8DB006DCEC1 /* QTwoViewController.swift */,
+				BDF78DD4286DF8E6006DCEC1 /* QThreeViewController.swift */,
+				BDF78DD6286DF8FA006DCEC1 /* QFourViewController.swift */,
 				BDB0F31B286B5115009AA2B0 /* Assets.xcassets */,
 				BDB0F31D286B5115009AA2B0 /* LaunchScreen.storyboard */,
 				BDB0F320286B5115009AA2B0 /* Info.plist */,
@@ -160,15 +157,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				BDB0F314286B5114009AA2B0 /* ViewController.swift in Sources */,
+				BDF78DD3286DF8DB006DCEC1 /* QTwoViewController.swift in Sources */,
 				BDB0F31A286B5114009AA2B0 /* gitHubPartner.xcdatamodeld in Sources */,
-				BDB0F327286B5EF6009AA2B0 /* NewViewController.swift in Sources */,
-				BD652813286B8C18002DC737 /* BarControlViewController.swift in Sources */,
+				BDF78DD1286DF8CA006DCEC1 /* QOneViewController.swift in Sources */,
 				BDB0F310286B5114009AA2B0 /* AppDelegate.swift in Sources */,
-				BDB0F329286B5F70009AA2B0 /* secondViewController.swift in Sources */,
-				BD652815286B95FF002DC737 /* questionViewController.swift in Sources */,
-				BD4BF1E3286CC6990009CBC9 /* nameViewController.swift in Sources */,
+				BDF78DD9286DFA04006DCEC1 /* ResultsViewController.swift in Sources */,
+				BDF78DD5286DF8E6006DCEC1 /* QThreeViewController.swift in Sources */,
 				BDB0F312286B5114009AA2B0 /* SceneDelegate.swift in Sources */,
-				BD652817286B966E002DC737 /* barViewController.swift in Sources */,
+				BDF78DD7286DF8FA006DCEC1 /* QFourViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

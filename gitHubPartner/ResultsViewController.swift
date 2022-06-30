@@ -1,18 +1,24 @@
 //
-//  secondViewController.swift
+//  ResultsViewController.swift
 //  gitHubPartner
 //
-//  Created by Scholar on 6/28/22.
+//  Created by Scholar on 6/30/22.
 //
 
 import UIKit
 
-class secondViewController: UIViewController {
+class ResultsViewController: UIViewController {
 
+    var name = ""
+    var grade = 13
+    var howInformed = ""
+    var struggle = ""
+    
+    @IBOutlet weak var nameLabel: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        nameLabel.text = "Welcome \(name). You are in \(grade), and you are this level of informed: \(howInformed). You struggle with \(struggle)."
     }
     
 
