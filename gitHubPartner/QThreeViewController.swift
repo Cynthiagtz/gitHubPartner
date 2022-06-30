@@ -26,7 +26,7 @@ class QThreeViewController: UIViewController {
             howInformed = "I am somewhat informed"
         }
         else {
-            howInformed = "Not informed at all"
+            howInformed = "I am not informed at all"
         }
 
     }
