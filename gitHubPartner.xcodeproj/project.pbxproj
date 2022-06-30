@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD2194CB286E3CC500D4B56E /* ChecklistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2194CA286E3CC500D4B56E /* ChecklistViewController.swift */; };
+		BD2194CD286E3F0100D4B56E /* eleventhGradeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2194CC286E3F0100D4B56E /* eleventhGradeViewController.swift */; };
+		BD2194CF286E418400D4B56E /* twelfthGradeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2194CE286E418400D4B56E /* twelfthGradeViewController.swift */; };
+		BD2194D1286E420300D4B56E /* tenthGradeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2194D0286E420300D4B56E /* tenthGradeViewController.swift */; };
 		BDB0F310286B5114009AA2B0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB0F30F286B5114009AA2B0 /* AppDelegate.swift */; };
 		BDB0F312286B5114009AA2B0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB0F311286B5114009AA2B0 /* SceneDelegate.swift */; };
 		BDB0F314286B5114009AA2B0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB0F313286B5114009AA2B0 /* ViewController.swift */; };
@@ -22,6 +26,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BD2194CA286E3CC500D4B56E /* ChecklistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChecklistViewController.swift; sourceTree = "<group>"; };
+		BD2194CC286E3F0100D4B56E /* eleventhGradeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eleventhGradeViewController.swift; sourceTree = "<group>"; };
+		BD2194CE286E418400D4B56E /* twelfthGradeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = twelfthGradeViewController.swift; sourceTree = "<group>"; };
+		BD2194D0286E420300D4B56E /* tenthGradeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tenthGradeViewController.swift; sourceTree = "<group>"; };
 		BDB0F30C286B5114009AA2B0 /* gitHubPartner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gitHubPartner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDB0F30F286B5114009AA2B0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BDB0F311286B5114009AA2B0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -72,6 +80,10 @@
 				BDB0F311286B5114009AA2B0 /* SceneDelegate.swift */,
 				BDB0F313286B5114009AA2B0 /* ViewController.swift */,
 				BDB0F315286B5114009AA2B0 /* Main.storyboard */,
+				BD2194D0286E420300D4B56E /* tenthGradeViewController.swift */,
+				BD2194CE286E418400D4B56E /* twelfthGradeViewController.swift */,
+				BD2194CC286E3F0100D4B56E /* eleventhGradeViewController.swift */,
+				BD2194CA286E3CC500D4B56E /* ChecklistViewController.swift */,
 				BDF78DD8286DFA04006DCEC1 /* ResultsViewController.swift */,
 				BDF78DD0286DF8CA006DCEC1 /* QOneViewController.swift */,
 				BDF78DD2286DF8DB006DCEC1 /* QTwoViewController.swift */,
@@ -158,9 +170,13 @@
 			files = (
 				BDB0F314286B5114009AA2B0 /* ViewController.swift in Sources */,
 				BDF78DD3286DF8DB006DCEC1 /* QTwoViewController.swift in Sources */,
+				BD2194CF286E418400D4B56E /* twelfthGradeViewController.swift in Sources */,
 				BDB0F31A286B5114009AA2B0 /* gitHubPartner.xcdatamodeld in Sources */,
+				BD2194CD286E3F0100D4B56E /* eleventhGradeViewController.swift in Sources */,
+				BD2194CB286E3CC500D4B56E /* ChecklistViewController.swift in Sources */,
 				BDF78DD1286DF8CA006DCEC1 /* QOneViewController.swift in Sources */,
 				BDB0F310286B5114009AA2B0 /* AppDelegate.swift in Sources */,
+				BD2194D1286E420300D4B56E /* tenthGradeViewController.swift in Sources */,
 				BDF78DD9286DFA04006DCEC1 /* ResultsViewController.swift in Sources */,
 				BDF78DD5286DF8E6006DCEC1 /* QThreeViewController.swift in Sources */,
 				BDB0F312286B5114009AA2B0 /* SceneDelegate.swift in Sources */,
