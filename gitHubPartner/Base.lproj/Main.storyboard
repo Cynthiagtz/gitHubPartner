@@ -351,7 +351,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="gray" title="view your checklist"/>
                                 <connections>
-                                    <segue destination="EcT-mg-gpJ" kind="presentation" modalPresentationStyle="fullScreen" id="zSx-yM-ueh"/>
+                                    <action selector="viewChecklist:" destination="ehV-8r-x0a" eventType="touchUpInside" id="fyg-23-iRV"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -374,6 +374,10 @@
                         <outlet property="informedResult" destination="6fe-6E-Qpt" id="fWt-0n-3Al"/>
                         <outlet property="nameLabel" destination="Unx-SK-5NY" id="Ecd-y2-9WR"/>
                         <outlet property="stuggleResult" destination="PDU-7k-JyA" id="O9t-2h-vHe"/>
+                        <segue destination="EcT-mg-gpJ" kind="presentation" identifier="Freshman" modalPresentationStyle="fullScreen" id="IiE-vJ-0mb"/>
+                        <segue destination="dIB-bx-Pxc" kind="presentation" identifier="Sophmore" modalPresentationStyle="fullScreen" id="CVg-gF-dHr"/>
+                        <segue destination="ufs-dN-nmv" kind="presentation" identifier="Junior" modalPresentationStyle="fullScreen" id="JfF-d4-OXl"/>
+                        <segue destination="Raq-nA-d52" kind="presentation" identifier="Senior" modalPresentationStyle="fullScreen" id="gLN-b7-plo"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zhJ-Ov-lIt" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -799,7 +803,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="zSx-yM-ueh"/>
+        <segue reference="IiE-vJ-0mb"/>
         <segue reference="IPO-Fd-pYa"/>
     </inferredMetricsTieBreakers>
     <resources>
