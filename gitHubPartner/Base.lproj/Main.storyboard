@@ -22,6 +22,8 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="tinted" title="Results">
                                     <fontDescription key="titleFontDescription" name="GillSans" family="Gill Sans" pointSize="16"/>
+                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="baseBackgroundColor" red="0.86666667460000002" green="0.74509805439999999" blue="0.66274511810000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="resultsTapped:" destination="Mic-Gq-GJx" eventType="touchUpInside" id="jxI-5a-MEm"/>
@@ -39,9 +41,11 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gfv-sP-4pZ">
                                 <rect key="frame" x="93" y="334" width="229" height="43"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Time management">
                                     <fontDescription key="titleFontDescription" name="GillSans-Bold" family="Gill Sans" pointSize="16"/>
+                                    <color key="baseBackgroundColor" red="0.86666667460000002" green="0.74509805439999999" blue="0.66274511810000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="buttonTapped:" destination="Mic-Gq-GJx" eventType="touchUpInside" id="jxL-As-H02"/>
@@ -53,6 +57,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Note taking">
                                     <fontDescription key="titleFontDescription" name="GillSans-Bold" family="Gill Sans" pointSize="16"/>
+                                    <color key="baseBackgroundColor" red="0.86666667460000002" green="0.74509805439999999" blue="0.66274511810000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="buttonTapped:" destination="Mic-Gq-GJx" eventType="touchUpInside" id="hyf-30-Lye"/>
@@ -64,6 +69,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Studying">
                                     <fontDescription key="titleFontDescription" name="GillSans-Bold" family="Gill Sans" pointSize="16"/>
+                                    <color key="baseBackgroundColor" red="0.86666667460000002" green="0.74509805439999999" blue="0.66274511810000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="buttonTapped:" destination="Mic-Gq-GJx" eventType="touchUpInside" id="GdQ-uG-rJR"/>
@@ -71,7 +77,8 @@
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="4fP-YS-KXq"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.98431372640000003" green="0.9098039269" blue="0.8392156959" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
                     <navigationItem key="navigationItem" id="0gH-PQ-vua"/>
                     <connections>
@@ -103,6 +110,8 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="tinted" title="Next">
                                     <fontDescription key="titleFontDescription" name="GillSans" family="Gill Sans" pointSize="16"/>
+                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="baseBackgroundColor" red="0.79607843140000001" green="0.59999999999999998" blue="0.4941176471" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="nextTapped:" destination="UUl-lO-c7C" eventType="touchUpInside" id="py8-R2-ip4"/>
@@ -114,6 +123,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="I am very informed">
                                     <fontDescription key="titleFontDescription" name="GillSans-Bold" family="Gill Sans" pointSize="16"/>
+                                    <color key="baseBackgroundColor" red="0.86666667460000002" green="0.74509805439999999" blue="0.66274511810000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="buttonTapped:" destination="UUl-lO-c7C" eventType="touchUpInside" id="bx1-Bf-a86"/>
@@ -125,6 +135,8 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="I am somewhat informed">
                                     <fontDescription key="titleFontDescription" name="GillSans-Bold" family="Gill Sans" pointSize="16"/>
+                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="baseBackgroundColor" red="0.86666667460000002" green="0.74509805439999999" blue="0.66274511810000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="buttonTapped:" destination="UUl-lO-c7C" eventType="touchUpInside" id="CJw-uV-4uO"/>
@@ -136,6 +148,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="I am not informed at all">
                                     <fontDescription key="titleFontDescription" name="GillSans-Bold" family="Gill Sans" pointSize="16"/>
+                                    <color key="baseBackgroundColor" red="0.86666667460000002" green="0.74509805439999999" blue="0.66274511810000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="buttonTapped:" destination="UUl-lO-c7C" eventType="touchUpInside" id="QDw-TA-YQt"/>
@@ -143,7 +156,7 @@
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="uJy-q3-gTs"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="1" green="0.90980392160000001" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                     <navigationItem key="navigationItem" id="5xc-zj-ogF"/>
                     <connections>
@@ -165,27 +178,25 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UdZ-WB-yLj">
                                 <rect key="frame" x="139" y="747" width="136" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.73333333329999995" green="0.74901960779999999" blue="0.69019607839999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="tinted" title="Next">
                                     <fontDescription key="titleFontDescription" name="GillSans" family="Gill Sans" pointSize="16"/>
+                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="baseBackgroundColor" red="0.79607843140000001" green="0.59999999999999998" blue="0.4941176471" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="nextTapped:" destination="zkZ-AC-Yqe" eventType="touchUpInside" id="llH-Qe-kWV"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="What grade are you in?" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HLX-Jb-Bv1">
-                                <rect key="frame" x="43" y="79" width="328" height="39"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="30"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5oK-u8-hvl">
                                 <rect key="frame" x="93" y="247" width="229" height="43"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="9th">
                                     <fontDescription key="titleFontDescription" name="GillSans-Bold" family="Gill Sans" pointSize="16"/>
+                                    <color key="baseForegroundColor" red="1" green="0.98178904879578466" blue="0.97329476717650076" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="baseBackgroundColor" red="0.8666666666666667" green="0.74509803921568629" blue="0.66274509803921566" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="buttonTapped:" destination="zkZ-AC-Yqe" eventType="touchUpInside" id="aKI-qe-SoX"/>
@@ -197,6 +208,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="10th">
                                     <fontDescription key="titleFontDescription" name="GillSans-Bold" family="Gill Sans" pointSize="16"/>
+                                    <color key="baseBackgroundColor" red="0.86666667460000002" green="0.74509805439999999" blue="0.66274511810000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="buttonTapped:" destination="zkZ-AC-Yqe" eventType="touchUpInside" id="v3d-tJ-s0Q"/>
@@ -208,6 +220,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="11th">
                                     <fontDescription key="titleFontDescription" name="GillSans-Bold" family="Gill Sans" pointSize="16"/>
+                                    <color key="baseBackgroundColor" red="0.86666667460000002" green="0.74509805439999999" blue="0.66274511810000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="buttonTapped:" destination="zkZ-AC-Yqe" eventType="touchUpInside" id="M7E-8s-A5x"/>
@@ -219,14 +232,23 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="12th">
                                     <fontDescription key="titleFontDescription" name="GillSans-Bold" family="Gill Sans" pointSize="16"/>
+                                    <color key="baseBackgroundColor" red="0.86666667460000002" green="0.74509805439999999" blue="0.66274511810000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="buttonTapped:" destination="zkZ-AC-Yqe" eventType="touchUpInside" id="AtE-n2-fMd"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="What grade are you in?" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HLX-Jb-Bv1">
+                                <rect key="frame" x="43" y="98" width="328" height="62"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <color key="highlightedColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="QDM-v4-cG8"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="1" green="0.90980392156862744" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="tintColor" red="1" green="0.90980392156862744" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                     <navigationItem key="navigationItem" id="ram-mg-HTC"/>
                     <connections>
@@ -296,8 +318,10 @@
                                 <rect key="frame" x="106" y="493" width="202" height="71"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="your future awaits">
+                                <buttonConfiguration key="configuration" style="filled" title="your future awaits" cornerStyle="capsule">
                                     <fontDescription key="titleFontDescription" name="GillSans-Bold" family="Gill Sans" pointSize="18"/>
+                                    <color key="baseForegroundColor" red="0.46274507050000002" green="0.5176470876" blue="0.46666663889999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="baseBackgroundColor" red="0.87884361613762763" green="0.91080729166666663" blue="0.88071703628954545" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <segue destination="evb-Rr-sBr" kind="presentation" modalPresentationStyle="fullScreen" id="DeN-DQ-bAd"/>
@@ -307,12 +331,12 @@
                                 <rect key="frame" x="39" y="221" width="336" height="163"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="35"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" red="0.96366003789999999" green="0.96118025060000001" blue="0.8559353274" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.46274507050000002" green="0.5176470876" blue="0.46666663889999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -357,7 +381,7 @@
                                                 <rect key="frame" x="27" y="148" width="361" height="897"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="18"/>
-                                                <nil key="textColor"/>
+                                                <color key="textColor" red="0.25053267045454541" green="0.1892349176378974" blue="0.14161293705557512" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pPa-Sf-kv6">
@@ -370,7 +394,7 @@
                                                 </connections>
                                             </button>
                                         </subviews>
-                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <color key="backgroundColor" red="0.98431372640000003" green="0.9098039269" blue="0.8392156959" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="1500" id="7Dr-i7-Ovw"/>
                                             <constraint firstItem="Xdz-DX-awf" firstAttribute="centerX" secondItem="Qa1-H1-xMt" secondAttribute="centerX" id="cwf-ev-4Oe"/>
@@ -1090,14 +1114,14 @@
         <scene sceneID="eDT-Ok-1a6">
             <objects>
                 <viewController id="ufs-dN-nmv" customClass="eleventhGradeViewController" customModule="gitHubPartner" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="7Qx-Fb-Tjn">
+                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="7Qx-Fb-Tjn">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="s3U-XF-MlP">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="s3U-XF-MlP">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="A6i-fg-xC8">
+                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="A6i-fg-xC8">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="1500"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="College visits 🏫📍 " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sda-g8-obU">
@@ -1462,20 +1486,20 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="61L-Cs-2X3">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="61L-Cs-2X3">
+                                <rect key="frame" x="0.0" y="-34" width="414" height="896"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Xgf-4c-RKB">
                                         <rect key="frame" x="0.0" y="0.0" width="415" height="1500"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Senior To-Do's" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QlX-e6-thD">
-                                                <rect key="frame" x="95" y="63" width="225" height="39"/>
-                                                <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="30"/>
+                                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Senior To-Do's" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QlX-e6-thD">
+                                                <rect key="frame" x="111" y="80" width="193.5" height="39"/>
+                                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="30"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZNO-xw-PHp">
-                                                <rect key="frame" x="34" y="220.5" width="15" height="15"/>
+                                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZNO-xw-PHp">
+                                                <rect key="frame" x="34" y="215" width="15" height="15"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="15" id="poW-Zt-fbe"/>
                                                 </constraints>
@@ -1486,8 +1510,8 @@
                                                     <action selector="checkMarkTapped:" destination="ufs-dN-nmv" eventType="touchUpInside" id="o8G-5F-fyc"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rmH-S1-Hyj">
-                                                <rect key="frame" x="34" y="293" width="15" height="15"/>
+                                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rmH-S1-Hyj">
+                                                <rect key="frame" x="34" y="283" width="15" height="15"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="15" id="YxM-KW-Bc2"/>
                                                 </constraints>
@@ -1498,8 +1522,8 @@
                                                     <action selector="checkMarkTapped:" destination="Raq-nA-d52" eventType="touchUpInside" id="adA-ip-GuI"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HZ9-T2-aUA">
-                                                <rect key="frame" x="34" y="366" width="15" height="15"/>
+                                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HZ9-T2-aUA">
+                                                <rect key="frame" x="34" y="347" width="15" height="15"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="15" id="ZLq-HX-zNA"/>
                                                 </constraints>
@@ -1522,8 +1546,8 @@
                                                     <action selector="checkMarkTapped:" destination="Raq-nA-d52" eventType="touchUpInside" id="xkc-D3-syy"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PxW-Df-tqz">
-                                                <rect key="frame" x="34" y="519" width="15" height="15"/>
+                                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PxW-Df-tqz">
+                                                <rect key="frame" x="39" y="506" width="15" height="15"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="15" id="HyJ-Xz-AXO"/>
                                                 </constraints>
@@ -1534,8 +1558,8 @@
                                                     <action selector="checkMarkTapped:" destination="ufs-dN-nmv" eventType="touchUpInside" id="sdk-H8-DuG"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1RA-6y-Rub">
-                                                <rect key="frame" x="34" y="600" width="15" height="15"/>
+                                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1RA-6y-Rub">
+                                                <rect key="frame" x="39" y="578" width="15" height="15"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="15" id="r62-zD-bHk"/>
                                                 </constraints>
@@ -1546,8 +1570,8 @@
                                                     <action selector="checkMarkTapped:" destination="Raq-nA-d52" eventType="touchUpInside" id="vNq-mS-7UI"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rKh-OG-T50">
-                                                <rect key="frame" x="34" y="706" width="15" height="15"/>
+                                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rKh-OG-T50">
+                                                <rect key="frame" x="34" y="678" width="15" height="15"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="15" id="4pp-nb-bsI"/>
                                                 </constraints>
@@ -1558,8 +1582,8 @@
                                                     <action selector="checkMarkTapped:" destination="Raq-nA-d52" eventType="touchUpInside" id="lRd-al-9AK"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hrS-sG-782">
-                                                <rect key="frame" x="34" y="792" width="15" height="15"/>
+                                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hrS-sG-782">
+                                                <rect key="frame" x="39" y="743" width="15" height="15"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="15" id="ybv-4h-sfh"/>
                                                 </constraints>
@@ -1570,8 +1594,8 @@
                                                     <action selector="checkMarkTapped:" destination="ufs-dN-nmv" eventType="touchUpInside" id="hjf-d8-mYi"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="742-Uc-enH">
-                                                <rect key="frame" x="34" y="869" width="15" height="15"/>
+                                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="742-Uc-enH">
+                                                <rect key="frame" x="39" y="807" width="15" height="15"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="15" id="UFq-TR-wOQ"/>
                                                 </constraints>
@@ -1594,105 +1618,91 @@
                                                     <action selector="checkMarkTapped:" destination="ufs-dN-nmv" eventType="touchUpInside" id="Cix-my-1qj"/>
                                                 </connections>
                                             </button>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pjd-Zp-Hjc">
-                                                <rect key="frame" x="97" y="144" width="162" height="35"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pjd-Zp-Hjc">
+                                                <rect key="frame" x="85" y="141" width="162" height="35"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="162" id="KiH-Wc-Fzj"/>
                                                     <constraint firstAttribute="height" constant="35" id="oFz-xs-Bx8"/>
                                                 </constraints>
                                                 <string key="text">Apply for colleges 
 </string>
-                                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="18"/>
-                                                <nil key="textColor"/>
+                                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="19"/>
+                                                <color key="textColor" red="0.96366003789999999" green="0.96118025060000001" blue="0.8559353274" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M3I-Su-bw2">
-                                                <rect key="frame" x="97" y="223" width="270" height="24"/>
-                                                <string key="text">Visits schools you’re interested in 
-</string>
-                                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="18"/>
-                                                <nil key="textColor"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Visits schools you’re interested in" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M3I-Su-bw2">
+                                                <rect key="frame" x="85" y="192" width="280" height="60"/>
+                                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="19"/>
+                                                <color key="textColor" red="0.96366003789999999" green="0.96118025060000001" blue="0.8559353274" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D5L-dH-yZc">
-                                                <rect key="frame" x="97" y="300.5" width="176" height="24"/>
-                                                <string key="text">Focus on your grades
-</string>
-                                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="18"/>
-                                                <nil key="textColor"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Focus on your grades" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D5L-dH-yZc">
+                                                <rect key="frame" x="85" y="277" width="219" height="26"/>
+                                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="19"/>
+                                                <color key="textColor" red="0.96366003789999999" green="0.96118025060000001" blue="0.8559353274" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VXZ-WM-PHA">
-                                                <rect key="frame" x="93" y="350" width="277" height="88"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Commit to some extracurriculars, and try for leadership roles" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VXZ-WM-PHA">
+                                                <rect key="frame" x="85" y="322" width="277" height="88"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="88" id="bKA-Vd-TB0"/>
                                                     <constraint firstAttribute="width" constant="277" id="kPV-zp-uR9"/>
                                                 </constraints>
-                                                <string key="text">Commit to some extracurriculars, and try for leadership roles  
-</string>
-                                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="18"/>
-                                                <nil key="textColor"/>
+                                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="19"/>
+                                                <color key="textColor" red="0.96366003789999999" green="0.96118025060000001" blue="0.8559353274" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hwX-Qu-dZi">
-                                                <rect key="frame" x="97" y="444" width="276" height="24"/>
-                                                <string key="text">Finish and edit your college essay
-</string>
-                                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="18"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4dE-YS-S2t">
-                                                <rect key="frame" x="97" y="519" width="225.5" height="47"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4dE-YS-S2t">
+                                                <rect key="frame" x="88" y="500" width="260" height="52"/>
                                                 <string key="text">Retake the SAT if necessary
 </string>
-                                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="18"/>
-                                                <nil key="textColor"/>
+                                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="19"/>
+                                                <color key="textColor" red="0.96366003789999999" green="0.96118025060000001" blue="0.8559353274" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="roF-cy-G9w">
-                                                <rect key="frame" x="97" y="588" width="276" height="107"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="roF-cy-G9w">
+                                                <rect key="frame" x="85" y="559" width="276" height="107"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="276" id="1ZO-DF-qL8"/>
                                                     <constraint firstAttribute="height" constant="107" id="SQp-45-LwB"/>
                                                 </constraints>
-                                                <string key="text">Talk with your counselor about  future opportunities, and  plans for the rest of the year 
+                                                <string key="text">Talk with your counselor about future opportunities, and  plans for the rest of the year 
 </string>
-                                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="18"/>
-                                                <nil key="textColor"/>
+                                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="19"/>
+                                                <color key="textColor" red="0.96366003789999999" green="0.96118025060000001" blue="0.8559353274" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Start taking any AP or DC classes if offered" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Y9-cy-3gp">
-                                                <rect key="frame" x="97" y="679" width="286" height="89"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Start taking any AP or DC classes if offered" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Y9-cy-3gp">
+                                                <rect key="frame" x="79" y="641" width="286" height="89"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="89" id="Yl7-mL-xTm"/>
                                                     <constraint firstAttribute="width" constant="286" id="y4o-pC-9r8"/>
                                                 </constraints>
-                                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="18"/>
-                                                <nil key="textColor"/>
+                                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="19"/>
+                                                <color key="textColor" red="0.96366003789999999" green="0.96118025060000001" blue="0.8559353274" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lh2-W0-lfq">
-                                                <rect key="frame" x="97" y="776" width="285" height="93"/>
+                                                <rect key="frame" x="85" y="718" width="285" height="93"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="93" id="XHv-u2-Di1"/>
                                                 </constraints>
                                                 <string key="text">If you qualify, apply for financial aid 
 </string>
-                                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="18"/>
-                                                <nil key="textColor"/>
+                                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="19"/>
+                                                <color key="textColor" red="0.96366003789999999" green="0.96118025060000001" blue="0.8559353274" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ofa-Hf-7B1">
-                                                <rect key="frame" x="97" y="871" width="183" height="24"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ofa-Hf-7B1">
+                                                <rect key="frame" x="79" y="801" width="213" height="26"/>
                                                 <string key="text">Apply for scholarships
 </string>
-                                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="18"/>
-                                                <nil key="textColor"/>
+                                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="19"/>
+                                                <color key="textColor" red="0.96366003789999999" green="0.96118025060000001" blue="0.8559353274" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dS2-dL-Niy">
-                                                <rect key="frame" x="34" y="938" width="15" height="15"/>
+                                                <rect key="frame" x="34" y="965.5" width="15" height="15"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="15" id="bsC-SF-Teu"/>
                                                 </constraints>
@@ -1704,15 +1714,15 @@
                                                 </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nsR-yJ-RcB">
-                                                <rect key="frame" x="97" y="940" width="276" height="24"/>
+                                                <rect key="frame" x="97" y="941" width="276" height="26"/>
                                                 <string key="text">Ask for letters of recommendation 
 </string>
-                                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="18"/>
-                                                <nil key="textColor"/>
+                                                <fontDescription key="fontDescription" name="AvenirNextCondensed-Regular" family="Avenir Next Condensed" pointSize="19"/>
+                                                <color key="textColor" red="0.96366003789999999" green="0.96118025060000001" blue="0.8559353274" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vbC-uY-NDO">
-                                                <rect key="frame" x="34" y="1017" width="15" height="15"/>
+                                                <rect key="frame" x="34" y="1044.5" width="15" height="15"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="15" id="HGD-hB-LFl"/>
                                                     <constraint firstAttribute="width" constant="15" id="gS7-x9-D9r"/>
@@ -1725,15 +1735,21 @@
                                                 </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VV4-LV-reK">
-                                                <rect key="frame" x="97" y="1019" width="233" height="24"/>
+                                                <rect key="frame" x="97" y="1022" width="194" height="26"/>
                                                 <string key="text">Volunteer in your community
 </string>
-                                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="18"/>
-                                                <nil key="textColor"/>
+                                                <fontDescription key="fontDescription" name="AvenirNextCondensed-Regular" family="Avenir Next Condensed" pointSize="19"/>
+                                                <color key="textColor" red="0.96366003789999999" green="0.96118025060000001" blue="0.8559353274" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Finish and edit your college essay" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hwX-Qu-dZi">
+                                                <rect key="frame" x="85" y="431" width="286" height="53"/>
+                                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="19"/>
+                                                <color key="textColor" red="0.96366003789999999" green="0.96118025060000001" blue="0.8559353274" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
-                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <color key="backgroundColor" red="0.46274507050000002" green="0.5176470876" blue="0.46666663889999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <constraints>
                                             <constraint firstItem="6JE-sR-RP7" firstAttribute="leading" secondItem="HZ9-T2-aUA" secondAttribute="leading" id="1bP-G1-yu4"/>
                                             <constraint firstItem="rKh-OG-T50" firstAttribute="trailing" secondItem="1RA-6y-Rub" secondAttribute="trailing" id="1nq-w7-Qcg"/>
@@ -1867,12 +1883,16 @@
         <segue reference="IiE-vJ-0mb"/>
         <segue reference="YIj-FX-xZ2"/>
     </inferredMetricsTieBreakers>
+    <color key="tintColor" systemColor="tintColor"/>
     <resources>
         <image name="checklist" catalog="system" width="128" height="105"/>
         <image name="doc.text" catalog="system" width="115" height="128"/>
         <image name="homekit" catalog="system" width="128" height="106"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="tintColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
